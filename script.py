@@ -25,7 +25,6 @@ if string[-1] != "\\":
 	string+="\\"
 print('Current Directory is: |'+string+'|')
 
-
 wallpaper_folder = string
 
 my_pics = []
@@ -37,8 +36,6 @@ def check_again():
 		if i[-3:] == 'bmp' or i[-3:] == 'jpg' or i[-3:] == 'png':
 			my_pics.append(i)
 	print(my_pics)
-
-
 
 used = []
 def random_mizer():
